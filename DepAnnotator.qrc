@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/app-icon.png</file>
+        <file>img/app-icon.icns</file>
+        <file>img/add-icon.png</file>
+        <file>img/remove-icon.png</file>
+        <file>img/view-icon.png</file>
+        <file>img/open-icon.png</file>
+        <file>img/save-icon.png</file>
+        <file>img/add-project-icon.png</file>
+        <file>img/zoom-in-icon.png</file>
+        <file>img/zoom-out-icon.png</file>
+        <file>img/epsilon-icon.png</file>
+        <file>img/redo-icon.png</file>
+        <file>img/undo-icon.png</file>
+        <file>img/invert-icon.png</file>
+        <file>img/coindex-icon.png</file>
+        <file>img/fitview-icon.png</file>
+        <file>img/general-icon.png</file>
+        <file>img/commands-icon.png</file>
+        <file>img/play-icon.png</file>
+        <file>img/pause-icon.png</file>
+        <file>img/stop-icon.png</file>
+    </qresource>
+</RCC>
