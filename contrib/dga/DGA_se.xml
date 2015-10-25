@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Swedish language tagging</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">se</entry>
+   <entry key="corpus">Swedish</entry>
+   <entry key="scheme">se</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">++
++A
+AA
+AG
+AN
+AT
+BS
+C+
+CA
+CC
+CJ
+DB
+DT
+EF
+EO
+ES
+ET
++F
+FO
+FS
+FV
+HD
+I?
+IC
+IG
+IK
+IM
+IO
+IP
+IQ
+IR
+IS
+IT
+IU
+IV
+JC
+JG
+JR
+JT
+KA
+MA
+MD
+MS
+NA
+OA
+OO
+PA
+PL
+PT
+RA
+ROOT
+SP
+SS
+ST
+TA
+UK
+VA
+VG
+VO
+VS
+XA
+XF
+XT
+XX</entry>
+
+<!-- POS Tags -->
+<entry key="pos">++
+AB
+AJ
+AN
+AV
+BV
+EN
+FV
+GV
+HV
+I?
+IC
+ID
+IG
+IK
+IM
+IP
+IQ
+IR
+IS
+IT
+IU
+KV
+MN
+MV
+NN
+PN
+PO
+PR
+PU
+QV
+RO
+SP
+SV
+TP
+UK
+VN
+VV
+WV
+XX
+YY</entry>
+</properties>

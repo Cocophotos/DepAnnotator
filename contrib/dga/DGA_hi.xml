@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Hindi language tagging</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">hi</entry>
+   <entry key="corpus">Hindi</entry>
+   <entry key="scheme">hi</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">
+adv|kriyaavisheshana ('manner  adverbs' only)
+ccof|Conjunct of relation
+enm|Enumerator
+fragof|Fragment of
+jjmod__relc|Relative clauses
+jjmod|Modifiers of the adjectives
+jk1|prayojya karta (causee)
+k*u|saadrishya (similarity)
+k1s|vidheya karta (karta samanadhikarana)
+k1|karta (doer/agent/subject) 
+k2g|gauna karma (secondary karma)
+k2p|Goal, Destination
+k2s|karma samanadhikarana (object complement)
+k2|karma (object/patient)
+k3|karana (instrument)
+k4a|anubhava karta (Experiencer)
+k4|sampradaana (recipient)
+k5prk|prakruti apadana ('source material' in verbs denoting change of state)
+k5|apaadaana (source)
+k7p|deshadhikarana (location in space)
+k7t|kaalaadhikarana (location in time)
+k7|vishayaadhikarana (location elsewhere)
+mk1|madhyastha karta (mediator-causer)
+nmod__relc|Relative clauses
+nmod|Noun modifier (including participles)
+pk1|prayojaka karta (Causer)
+pof|Part of relation
+r6-k1|karta or karma of a conjunct verb (complex predicate)
+r6-k2|karta or karma of a conjunct verb (complex predicate)
+r6v|'kA' relation between a noun and a verb
+r6|shashthi (possessive)
+rad|Address words
+ras-k*|upapada__ sahakaarakatwa  (associative)
+ras-neg|Negation in Associatives
+rbmod__relc|Relative clauses
+rd|prati (direction)
+rh|hetu (cause-effect)
+rsp|relation for duratives
+rs|relation samanadhikaran (noun elaboration)
+rt|taadarthya (purpose)
+sent-adv|Sentential Adverbs
+vmod|Verb modifier
+</entry>
+
+<!-- POS Tags -->
+<entry key="pos">CC|Conjuncts
+CL|Classifier
+DEM|Demonstrative
+ECH|Echo
+INJ|Interjection
+INTF|Intensifier
+JJ|Adjective
+NEG|Negation
+NNP|Proper Noun
+NN|Noun
+NST|NLoc
+PRP|Pronoun
+PSP|Post position
+QC|Cardinal
+QF|Quantifiers
+QO|Ordinal
+RB|Adverb
+RDP|Reduplicative
+RP|Particles
+SYM|Sym
+UNK|Unknown
+UT|Quotative
+VAUX|Verb Aux
+VM|Verb-finite
+WQ|Question Words
+XC|Compounds</entry>
+</properties>

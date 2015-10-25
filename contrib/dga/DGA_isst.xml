@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Italian language tagging</comment>
+    <entry key="tagger">http://tanl.di.unipi.it/it/api</entry>
+	<entry key="language">it</entry>
+	<entry key="corpus">Italian-SST</entry>
+	<entry key="scheme">it</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">arg|argomento
+aux|verbo ausiliario
+clit|clitici
+comp|comparativo
+compl|complemento
+con|congiunzione
+concat|concatenazione
+cong|congiunto
+cong_sub|???
+det|determinazione
+disg|disgiunto
+dis|disgiunzione
+mod|modificatore
+mod_disl|modificatore dislocato
+mod_rel|referente di relativo
+modal|verbo modale
+obl|argomento obliquo
+ogg_d|oggetto diretto
+ogg_i|oggetto indiretto
+pred|predicato
+prep|preposizione
+punc|punteggiatura
+sogg|soggetto
+ROOT|testa</entry>
+
+	<!-- POS Tags -->
+<entry key="pos">A|Aggettivo
+AFP|Aggett. fem. plur.
+AFS|Aggett. fem. sing.
+AM|Aggett. mas.
+AMP|Aggett. mas. plur.
+AMS|Aggett. mas. sing.
+AP|Aggett. plur.
+AS|Aggett. sing.
+B|Avverbio
+C|Congiunzione
+D|Determinativo
+DFP|Det. fem. pl.
+DFS|Det fem. sing.
+DMP|Det. mas. pl.
+DMS|Det. mas. sing.
+DP|Det. pl.
+DS|Det. sing.
+E|Preposizione
+EFP|Prep. fem. pl.
+EFS|Prep. fem. sing.
+EMP|Prep. mas. pl.
+EMS|Prep. mas. sing.
+ES|Prep. sing.
+I|Intriezione
+N|Numero
+P|Pronome
+PF|Pron. fem.
+PFP|Pron. fem. pl.
+PFS|Pron. fem. sing.
+PMP|Pron. mas. pl.
+PMS|Pron. mas. sing.
+PP|Pron. pl.
+PS|Pron. sing.
+PUB|Punteg. ()
+PUC|Punteg. ,
+PUO|Punteg. `` '' - ... _ /
+PUS|Punt. . ; ? ! :
+RFP|Art. fem. pl.
+RFS|Art. fem. sing.
+RMP|Art. mas. pl.
+RMS|Art. mas. sing.
+RS|Art. sing.
+S|Nome
+SA|Acronimo
+SF|Nome fem.
+SFP|Nome fem. pl.
+SFS|Nome fem. sing.
+SM|Nome mas.
+SMP|Nome mas. pl.
+SMS|Nome mas. sing.
+SP|Nome pl.
+SS|Nome sing.
+SP|Nome prop.
+SPMP|Nome prop. mas. pl.
+V|Verbo
+V1P|Verbo 1 pl.
+V1S|Verbo 1 sing.
+V2P|Verbo 2 pl.
+V2S|Verbo 2 sing.
+V3P|Verbo 3 pl.
+V3S|Verbo 3 sing.
+VF|Verbo inf.
+VMP|Verbo imper. pl.
+VMS|Verbo imper. sing.
+VX|Verbo aus.
+VX1P|Verbo aus. 1 pl.
+VX1S|Verbo aus. 1 sing.
+VX2P|Verbo aus. 2 pl.
+VX2S|Verbo aus. 2 sing.
+VX3P|Verbo aus. 3 pl.
+VX3S|Verbo aus. 3 sing.
+VXMP|Verbo aus. imp. pl.
+VXMS|Verbo aus. imp. sing.
+X|Simbolo
+!
+"
+%
+&amp;
+'
+''</entry>
+</properties>
+

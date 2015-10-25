@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Chinese language tagging</comment>
+    <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+	<entry key="language">cn</entry>
+	<entry key="corpus">Chinese</entry>
+	<entry key="scheme">cn</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">addition
+agent
+apposition
+aspect
+benefactor
+causer
+companion
+comparison
+complement
+concession
+condition
+contrast
+conversion
+degree
+deixis
+deontics
+DUMMY
+DUMMY1
+DUMMY2
+duration
+epistemics
+evaluation
+experiencer
+frequency
+goal
+head
+Head
+hypothesis
+instrument
+location
+manner
+negation
+nominal
+particle
+possessor
+predication
+property
+purpose
+quantifier
+quantity
+range
+reason
+recipient
+restriction
+result
+ROOT
+standard
+target
+theme
+time
+topic
+whatever</entry>
+
+<!-- POS Tags -->
+<entry key="pos">A
+C
+D
+DE
+DM
+H11
+Head
+I
+N
+Ne
+Ng
+P
+Str
+T
+V</entry>
+</properties>

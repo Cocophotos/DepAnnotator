@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Italian language tagging</comment>
+    <entry key="tagger">http://tanl.di.unipi.it/it/api</entry>
+	<entry key="language">it</entry>
+	<entry key="corpus">Italian</entry>
+	<entry key="scheme">it</entry>
+
+	<!-- Dependency Relations -->
+<entry key="deprels">
+appo|apposition
+arg|argomento
+aux|auxiliary verb
+clit|clitic
+comp|complement
+comp_ind|indirect complemento
+comp_loc|location complement
+comp_temp|temporal complement
+con|conjunction
+concat|concatenation
+conj|conjunct
+det|determiner
+dis|disjunction
+disj|disjunct
+mod|modifier
+mod_loc|location modifier
+mod_rel|referent of relative
+mod_temp|temporary modifier
+modal|modal verb
+neg|negation
+obj|direct object
+pred|predicate
+pred_loc|location predicate
+pred_temp|temporal predicate
+prep|preposition
+punc|punctuation
+ROOT|root
+sub|subordinate clause
+subj|subject
+subj_pass|passive subject
+voc|vocative
+</entry>
+
+<!-- POS Tags -->
+<entry key="pos">
+A|adjective
+AP|possessive adjective
+B|adverb
+BN|negation adverb
+CC|coordinate conjunction
+CS|subordinate conjunction
+DD|demonstrative determiner
+DE|exclamative determiner
+DI|indefinite determiner
+DQ|interrogative determiner
+DR|relative determiner
+E|preposition
+EA|articulated preposition
+FB|balanced punctuation
+FC|clause boundary punctuation
+FF|comma
+FS|sentence boundary punctuation
+I|interjection
+N|cardinal number
+NO|ordinal number
+PC|clitic pronoun
+PD|demonstrative pronoun
+PE|personal pronoun
+PI|indefinite pronoun
+PP|possessive pronoun
+PQ|interrogative pronoun
+PR|relative pronoun
+RD|determinative article
+RI|indeterminative article
+S|common noun
+SA|abbreviation
+SP|proper noun
+T|predeterminer
+V|main verb
+VA|auxiliary verb
+VM|modal verb
+X|Simbol, residual class
+</entry>
+</properties>
+

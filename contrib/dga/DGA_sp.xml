@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Spanish language tagging</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">sp</entry>
+   <entry key="corpus">Spanish</entry>
+   <entry key="scheme">sp</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">ATR
+ATR.d
+CAG
+CC
+CD
+CD.Q
+CI
+CPRED
+CPRED.CD
+CPRED.SUJ
+CREG
+ET
+IMPERS
+MOD
+NEG
+PASS
+PUNC
+ROOT
+SUJ
+VOC</entry>
+
+<!-- POS Tags -->
+<entry key="pos">ao
+aq
+cc
+cs
+da
+dd
+de
+di
+dn
+dp
+dt
+Fa
+Fc
+Fd
+Fe
+Fg
+Fh
+Fi
+Fp
+Fs
+Fx
+Fz
+i
+nc
+np
+p0
+pd
+pe
+pi
+pn
+pp
+pr
+pt
+px
+rg
+rn
+sn
+sp
+va
+vm
+vs
+w
+X
+Y
+z
+Zm
+Zp</entry>
+</properties>

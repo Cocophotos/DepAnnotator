@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for French language tagging (contributed by D. Seddah)</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">fr</entry>
+
+<entry key="corpus">French</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">
+
+I__
+I_root
+I_argc
+I_suj
+I_obj
+I_obj.cpl
+I_obj.p
+I_de_obj
+I_a_obj
+I_p_obj.loc
+I_p_obj.dloc
+I_p_obj.o
+I_ats
+I_ato
+I_mod.loc
+I_mod.cleft
+I_mod
+I_ponct
+I_dep.coord
+I_coord
+I_mod.rel
+I_arg
+I_det
+I_dep
+I_arg.comp
+I_arg.cons
+I_copy.comp
+I_copy.coord
+I_mod.app
+I_mod.inc
+I_aff.neutre
+I_dep.de
+
+F__
+F_root
+F_suj
+F_obj
+F_obj.cpl
+F_obj.p
+F_de_obj
+F_a_obj
+F_p_obj.agt
+F_p_obj.loc
+F_p_obj.dloc
+F_p_obj.o
+F_ats
+F_ato
+F_mod.loc
+F_mod.cleft
+F_aux.tps
+F_aux.pass
+F_aux.caus
+F_aff
+F_dis
+F_mod
+F_ponct
+F_dep.coord
+F_coord
+F_mod.rel
+F_arg
+F_det
+F_dep
+F_arg.comp
+F_arg.cons
+F_copy.comp
+F_copy.coord
+F_mod.app
+F_mod.inc
+F_aff.neutre
+F_dep.de
+
+</entry>
+
+<!-- POS Tags -->
+<entry key="pos">
+ADJ
+ADJWH
+ADV
+ADVWH
+CC
+CLO
+CLR
+CLS
+CS
+DET
+DETWH
+ET
+I
+NC
+NPP
+P
+P+D
+P+PRO
+PONCT
+PREF
+PRO
+PROREL
+PROWH
+V
+VIMP
+VINF
+VPP
+VPR
+VS
+X
+</entry>
+
+<entry key="coarsepos">
+A
+ADV
+C
+CL
+D
+ET
+I
+N
+P
+P+D
+P+PRO
+PONCT
+PREF
+PRO
+V
+X
+</entry>
+<!-- Automatic final and canonical relations !-->
+<entry key="doubled_relations">
+    <rel>p_obj.agt</rel>
+    <rel>suj</rel>
+    <rel>obj</rel>
+    <rel>a_obj</rel>
+    <rel>de_obj</rel>
+    <rel>ato</rel>
+    <rel>ats</rel>
+    <rel>dis</rel>
+</entry>
+
+<entry key="features">
+    <feat name='g'>
+        <val>m</val>
+        <val>f</val>
+    </feat>
+    <feat name='void'>
+        <val>y</val>
+    </feat>
+    <feat name='intrinsimp'>
+        <val>y</val>
+    </feat>
+    <feat name='m'>
+        <val>ind</val>
+        <val>imp</val>
+        <val>inf</val>
+        <val>part</val>
+        <val>subj</val>
+    </feat>
+    <feat name='n'>
+        <val>p</val>
+        <val>s</val>
+    </feat>
+    <feat name='p'>
+        <val>1</val>
+        <val>3</val>
+        <val>2</val>
+    </feat>
+    <feat name='s'>
+        <val>c</val>
+        <val>obj</val>
+        <val>w</val>
+        <val>qual</val>
+        <val>int</val>
+        <val>neg</val>
+        <val>suj</val>
+        <val>refl</val>
+        <val>pers</val>
+        <val>p</val>
+        <val>s</val>
+        <val>part</val>
+        <val>card</val>
+        <val>rel</val>
+        <val>ind</val>
+        <val>ord</val>
+        <val>excl</val>
+        <val>poss</val>
+        <val>def</val>
+        <val>dem</val>
+    </feat>
+    <feat name='t'>
+        <val>past</val>
+        <val>impft</val>
+        <val>fut</val>
+        <val>cond</val>
+        <val>pst</val>
+    </feat>
+    <feat name='diat'>
+        <val>sefaire</val>
+        <val>passif</val>
+        <val>passif_impers</val>
+        <val>causi_fige</val>
+        <val>caust</val>
+        <val>causi</val>
+        <val>neutre</val>
+        <val>impers</val>
+        <val>caust_seobj</val>
+        <val>moyen</val>
+    </feat>
+</entry>
+
+<!-- Meaningful features (when drawing the graph) -->
+<entry key="draw_features">
+    <feat>void</feat>
+</entry>
+</properties>

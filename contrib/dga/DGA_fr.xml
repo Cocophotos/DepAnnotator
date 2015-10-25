@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for French language tagging (contributed by D. Seddah)</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">fr</entry>
+   <entry key="corpus">French</entry>
+   <entry key="scheme">fr</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">
+
+a_obj
+aff
+arg
+ato
+ats
+aux_caus
+aux_pass
+aux_tps
+comp
+coord
+de_obj
+dep
+dep_coord
+det
+missinghead
+mod
+mod_rel
+obj
+obj1
+p_obj
+ponct
+root
+suj
+
+</entry>
+
+<!-- POS Tags -->
+<entry key="pos">
+ADJ
+ADJWH
+ADV
+ADVWH
+CC
+CLO
+CLR
+CLS
+CS
+DET
+DETWH
+ET
+I
+NC
+NPP
+P
+P+D
+P+PRO
+PONCT
+PREF
+PRO
+PROREL
+PROWH
+V
+VIMP
+VINF
+VPP
+VPR
+VS
+</entry>
+</properties>
