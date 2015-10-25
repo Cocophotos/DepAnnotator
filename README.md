@@ -44,3 +44,8 @@ Some screenshots:
 ![Labels edition](https://cloud.githubusercontent.com/assets/1861291/10717106/b6ea0198-7b4e-11e5-904a-82fb329e133f.png)
 - Token (lemma, POS, morphological features) edition:
 ![Token edition](https://cloud.githubusercontent.com/assets/1861291/10717107/b6ea8988-7b4e-11e5-9d1e-32f2f671d1ab.png)
+
+# Annotation files
+
+- Thanks to [Djamé Seddah](http://pauillac.inria.fr/~seddah/) for the french DGA file.
+- Thanks to [Teresa Lynn](http://www.nclt.dcu.ie/~tlynn/) for the Universal Dependencies DGA file.
