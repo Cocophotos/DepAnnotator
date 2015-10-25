@@ -49,3 +49,19 @@ Some screenshots:
 
 - Thanks to [Djamé Seddah](http://pauillac.inria.fr/~seddah/) for the french DGA file.
 - Thanks to [Teresa Lynn](http://www.nclt.dcu.ie/~tlynn/) for the Universal Dependencies DGA file.
+
+# How to cite
+
+If you're using the software, please cite the following work :
+
+Corentin Ribeyre, Méthodes d’Analyse Supervisée pour l’Interface Syntaxe-Sémantique, PhD Thesis, Université Paris 7 Diderot, 2015 (to appear).
+
+```bib
+@phdthesis{ribeyre:2015:phd,
+title = {{Méthodes d'Analyse Supervisée pour l'Interface Syntaxe-Sémantique}},
+author = {Ribeyre, Corentin},
+school = {Universit{\'{e}} Paris 7 Diderot},
+year = {2015},
+note = {to appear}
+}
+```
