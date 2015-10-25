@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for English language tagging</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">en</entry>
+   <entry key="corpus">English CoNLL 2008</entry>
+   <entry key="scheme">conll08</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">
+ADV|adverb modifier
+ADV-GAP|gapped ADV
+AMOD|adjective modifier
+AMOD-GAP|gapped AMOD
+APPO|apposition
+BNF|benefactor
+CONJ|between conjunction and second conjuct
+COORD|coordination
+DEP|unclassified relation
+DEP-GAP|gapped DEP
+DIR|direction
+DIR-GAP|gapped DIR
+DIR-OPRD|direction+object compl.
+DIR-PRD|direction+predicative
+DTV|dative
+DTV-GAP|gapped DTV to conjunction
+EXT|extent
+EXT-GAP|gapped EXT to conjunction
+EXTR|extraposed in expletive
+EXTR-GAP|gapped EXTR to conjunction
+GAP-LGS|gapped LGS
+GAP-LOC|gapped LOC
+GAP-LOC-PRD|gapped LOC-PRD
+GAP-MNR|gapped MNR
+GAP-NMOD|gapped NMOD
+GAP-OBJ|gapped OBJ
+GAP-OPRD|gapped OPRD
+GAP-PMOD|gapped PMOD
+GAP-PRD|gapped PRD
+GAP-PRP|gapped PRP
+GAP-PUT|gapped PUT
+GAP-SBJ|gapped SBJ
+GAP-SUB|gapped SUB
+GAP-TMP|gapped TMP
+GAP-VC|gapped VC
+HMOD|modifier in hypenation
+HYPH|hyphenation
+IM|infinitive marker
+LGS|logical subject
+LOC|location compl
+LOC-MNR|location+manner
+LOC-OPRD|location+object pred.
+LOC-PRD|location+predicative
+LOC-TMP|location+tmeporal
+MNR|manner
+MNR-PRD|manner+predicative
+MNR-TMP|manner+temporal
+NAME|name-internal link
+NMOD|noun modifier
+OBJ|verb to object
+OPRD|object complement
+P|punctuatiom
+PMOD|preposition modifier
+POSTHON|post-honoriphics
+PRD|predicative compl.
+PRD-PRP|predicative+purpose
+PRD-TMP|predicative+tmporal
+PRN|parenthetical
+PRP|purpose or reason
+PRT|particle
+PUT|complements of verb put
+ROOT|root
+SBJ|verb to subject
+SUB|subordinate
+SUFFIX|possessive 's
+TITLE|personal title
+TMP|temporal
+VC|auxiliary verb to main verb
+VMOD|verb modifier
+</entry>
+
+<!-- POS Tags -->
+<entry key="pos">CC|Coordinating conjunction
+CD|Cardinal number
+DT|Determiner
+EX|Existential there
+FW|Foreign word
+IN|Preposition/subord. conjunction
+JJ|Adjective
+JJR|Adjective, comparative
+JJS|Adjective, superlative
+LS|List item marker
+MD|Modal
+NN|Noun, singular or mass
+NNS|Noun, plural
+NNP|Proper noun, singular
+NNPS|Proper noun, plural
+PDT|Predeterminer
+POS|Possessive ending
+PRP|Personal pronoun
+PP|Possessive pronoun
+RB|Adverb
+RBR|Adverb, comparative
+RBS|Adverb, superlative
+RP|Particle
+SYM|Symbol
+TO|to
+UH|Interjection
+VB|Verb, base form
+VBD|Verb, past tense
+VBG|Verb, gerund/present participle
+VBN|Verb, past participle
+VBP|Verb, non-3rd ps. sing. present
+VBZ|Verb, 3rd ps. sing. present
+WDT|wh-determiner
+WP|wh-pronoun
+WP|Possessive wh-pronoun
+WRB|wh-adverb
+#|Pound sign
+$|Dollar sign
+.|Sentence-final punctuation
+,|Comma
+:|Colon, semi-colon
+(|Left bracket character
+)|Right bracket character
+"|Straight double quote
+`|Left open single quote
+"|Left open double quote
+'|Right close single quote
+"|Right close double quote</entry>
+</properties>

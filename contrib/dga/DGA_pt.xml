@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Portuguese language tagging</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">pt</entry>
+   <entry key="corpus">Portuguese</entry>
+   <entry key="scheme">pt</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels"><![CDATA[>A
+>N
+>P
+>S
+?
+A<
+A<PRED
+ACC
+ACC-PASS
+ACC>-PASS
+ADVL
+ADVO
+ADVS
+APP
+AS<
+AUX
+AUX<
+CJT
+CJT&ADVL
+CJT&PRED
+CMD
+CO
+COM
+DAT
+EXC
+FOC
+H
+KOMP<
+MV
+N<
+N<PRED
+NUM<
+OC
+P
+P<
+PASS
+PCJT
+PIV
+PMV
+PRD
+PRED
+PRT-AUX
+PRT-AUX<
+PRT-AUX
+PUNC
+QUE
+S<
+SC
+STA
+SUB
+SUBJ
+TOP
+UTT
+VOC
+VOK]]></entry>
+
+<!-- POS Tags -->
+<entry key="pos">?
+adj
+adv
+art
+conj
+ec
+in
+n
+num
+pp
+pron
+prop
+prp
+punc
+v
+vp</entry>
+</properties>

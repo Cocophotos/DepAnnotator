@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for English language tagging</comment>
+   <entry key="tagger">http://tanl.di.unipi.it/en/api</entry>
+   <entry key="language">en</entry>
+   <entry key="corpus">English</entry>
+   <entry key="scheme">en</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">subj|subject
+obj|object
+appo|apposition
+det|determiner
+mod|modifier
+aux|aux
+gen|genitive
+nn|nn
+pcomp|complement
+ROOT|Sentence root
+punc|Punctuation</entry>
+
+<!-- POS Tags -->
+<entry key="pos">CC|Coordinating conjunction
+CD|Cardinal number
+DT|Determiner
+EX|Existential there
+FW|Foreign word
+IN|Preposition/subord. conjunction
+JJ|Adjective
+JJR|Adjective, comparative
+JJS|Adjective, superlative
+LS|List item marker
+MD|Modal
+NN|Noun, singular or mass
+NNS|Noun, plural
+NNP|Proper noun, singular
+NNPS|Proper noun, plural
+PDT|Predeterminer
+POS|Possessive ending
+PRP|Personal pronoun
+PP|Possessive pronoun
+RB|Adverb
+RBR|Adverb, comparative
+RBS|Adverb, superlative
+RP|Particle
+SYM|Symbol
+TO|to
+UH|Interjection
+VB|Verb, base form
+VBD|Verb, past tense
+VBG|Verb, gerund/present participle
+VBN|Verb, past participle
+VBP|Verb, non-3rd ps. sing. present
+VBZ|Verb, 3rd ps. sing. present
+WDT|wh-determiner
+WP|wh-pronoun
+WP|Possessive wh-pronoun
+WRB|wh-adverb
+#|Pound sign
+$|Dollar sign
+.|Sentence-final punctuation
+,|Comma
+:|Colon, semi-colon
+(|Left bracket character
+)|Right bracket character
+"|Straight double quote
+`|Left open single quote
+"|Left open double quote
+'|Right close single quote
+"|Right close double quote</entry>
+</properties>

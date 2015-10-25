@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Universal Dependency Treebank - super labels)</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">ud</entry>
+
+<entry key="corpus">UD</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">
+acl
+advcl
+advmod
+amod
+appos
+aux
+auxpass
+case
+cc
+ccomp
+conj
+cop
+compound
+csubj
+csubjpass
+det
+dep
+det
+discourse
+dislocated
+dobj
+expl
+goeswith
+iobj
+list
+mark
+mwe
+name
+neg
+nmod
+nsubj
+nsubjpass
+nummod
+parataxis
+punct
+remnant
+reparandum
+root
+vocative
+xcomp
+</entry>
+
+<!-- POS Tags -->
+<entry key="pos">
+ADJ
+ADP
+ADV
+AUX
+CONJ
+DET
+INTJ
+PART
+PRON
+PROPN
+NOUN
+NUM
+PUNCT
+SCONJ
+SYM
+VERB
+X
+</entry>
+</properties>

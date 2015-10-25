@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for German language tagging</comment>
+    <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+	<entry key="language">de</entry>
+	<entry key="corpus">German</entry>
+	<entry key="scheme">de</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">_
+AC
+ADC
+AG
+AMS
+APP
+AVC
+CC
+CD
+CJ
+CM
+CP
+CVC
+DA
+DH
+DM
+EP
+HD
+JU
+MNR
+MO
+NG
+NK
+NMC
+OA
+OA2
+OC
+OG
+OP
+PAR
+PD
+PG
+PH
+PM
+PNC
+PUNC
+RC
+RE
+ROOT
+RS
+SB
+SBP
+SP
+SVP
+UC
+VO</entry>
+
+<!-- POS Tags -->
+<entry key="pos">pos=$,
+$.
+$(
+ADJA
+ADJD
+ADV
+APPO
+APPR
+APPRART
+APZR
+ART
+CARD
+FM
+ITJ
+KOKOM
+KON
+KOUI
+KOUS
+NE
+NN
+NNE
+PDAT
+PDS
+PIAT
+PIS
+PPER
+PPOSAT
+PPOSS
+PRELAT
+PRELS
+PRF
+PROAV
+PTKA
+PTKANT
+PTKNEG
+PTKVZ
+PTKZU
+PWAT
+PWAV
+PWS
+TRUNC
+VAFIN
+VAIMP
+VAINF
+VAPP
+VMFIN
+VMINF
+VMPP
+VVFIN
+VVIMP
+VVINF
+VVIZU
+VVPP
+XY</entry>
+</properties>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Catalan corpus</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">ca</entry>
+   <entry key="corpus">Catalan</entry>
+   <entry key="scheme">ca</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">ADJUNCT|Adjoining coordinating element
+AO|Sentence adjunct
+ATR|Attribute
+AUX|Auxiliary verb
+CAG|Agent complement
+CC|Verb adjunct
+CCL|Locative verb adjunct
+CCT|Temporal verb adjunct
+CD|Direct Object
+CI|Indirect object
+CO|Coordinating element
+COMP|Comparativo
+CONJUNCT|Conjunct
+CPRED|Predicative complement
+CREG|Prepositional complement
+DET|Determiner
+ESPEC|Article
+ET|Textual element
+IMPERS|Impersonal mark
+INC|inserted element
+MOD|Verb modifier
+MORF|Pronominal morpheme
+MV|Verbal morpheme
+NC|Quantity
+NEG|Negation
+PASS|Passive mark
+PREP|Preposition
+PUNC|Punctuation
+REL|Relative pronoun
+RG|
+S|Sentence
+SADJ|Adjectival phrase
+SADV|Adverbial phrase
+SF|Finite clause
+SN|Noun phrase
+SNF|Non-finite clause
+SP|Prepositional phrase
+SUBORD|Subordinate
+SUJ|Subject
+VERB|'fa'
+VOC|Vocative
+</entry>
+
+<!-- POS Tags -->
+<entry key="pos">ao
+aq
+cc
+cs
+da
+dd
+de
+di
+dn
+dp
+dt
+Fa
+Fc
+Fd
+Fe
+Fg
+Fh
+Fi
+Fp
+Fs
+Fx
+Fz
+i
+nc
+np
+p0
+pd
+pe
+pi
+pn
+pp
+pr
+pt
+px
+rg
+rn
+sn
+sp
+va
+vm
+vs
+w
+X
+Y
+z
+Zm
+Zp
+</entry>
+</properties>

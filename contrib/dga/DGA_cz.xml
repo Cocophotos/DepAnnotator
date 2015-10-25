@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+   <properties>
+   <comment>Configuration for Czech language tagging</comment>
+   <entry key="tagger">http://medialab.di.unipi.it/cgi-bin/tagger?</entry>
+   <entry key="language">cz</entry>
+   <entry key="corpus">Czech</entry>
+   <entry key="scheme">cz</entry>
+
+<!-- Dependency Relations -->
+<entry key="deprels">Adv
+Adv_Ap
+AdvAtr
+AdvAtr_Co
+Adv_Co
+Adv_Pa
+Apos
+Apos_Ap
+Apos_Co
+Apos_Pa
+Atr
+AtrAdv
+AtrAdv_Ap
+AtrAdv_Co
+AtrAdv_Pa
+Atr_Ap
+AtrAtr
+AtrAtr_Ap
+AtrAtr_Co
+AtrAtr_Pa
+Atr_Co
+AtrObj
+AtrObj_Co
+Atr_Pa
+Atv
+Atv_Ap
+Atv_Co
+Atv_Pa
+AtvV
+AtvV_Ap
+AtvV_Co
+AtvV_Pa
+AuxC
+AuxC_Ap
+AuxC_Co
+AuxC_Pa
+AuxG
+AuxG_Co
+AuxG_Pa
+AuxK
+AuxK_Pa
+AuxO
+AuxP
+AuxP_Co
+AuxP_Pa
+AuxR
+AuxT
+AuxV
+AuxV_Co
+AuxX
+AuxY
+AuxY_Co
+AuxY_Pa
+AuxZ
+AuxZ_Co
+AuxZ_Pa
+Coord
+Coord_Ap
+Coord_Co
+Coord_Pa
+ExD
+ExD_Ap
+ExD_Co
+ExD_Pa
+Obj
+Obj_Ap
+ObjAtr
+ObjAtr_Co
+Obj_Co
+Obj_Pa
+Pnom
+Pnom_Ap
+Pnom_Co
+Pnom_Pa
+Pred
+Pred_Ap
+Pred_Co
+Pred_Pa
+Sb
+Sb_Ap
+Sb_Co
+Sb_Pa</entry>
+
+<!-- POS Tags -->
+<entry key="pos">A
+C
+D
+I
+J
+N
+P
+R
+T
+V
+X
+Z</entry>
+</properties>
