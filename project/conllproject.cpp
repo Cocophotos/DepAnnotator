@@ -86,7 +86,7 @@ bool ConllProject::saveProject()
         foreach(CompleteAnnotationItem* annotation, annotations){
             for(int r = 0; r < annotation->getRevisionsCount(); r++)
                 saveRevision(annotation->getRevision(r), out);
-            saveAnnotation(annotation->getItem(), out);            
+            saveAnnotation(annotation->getItem(), out);
         }
     }
 
@@ -108,7 +108,7 @@ void ConllProject::saveRevision(Revision<AnnotationItem*> revision, QTextStream 
 }
 
 bool ConllProject::exportProject(QString path)
-{        
+{
     foreach(StringAndAnnotations file_annotations, container){
         QString filename = file_annotations.first;
         QList<CompleteAnnotationItem*> annotations = file_annotations.second;
@@ -177,8 +177,6 @@ bool ConllProject::openProject()
                     id = captured[2].toUInt();
 
                 }else if(captured[1] == "File"){
-                    filename = captured[2].trimmed();
-
                     if(items.size() > 0){
                         processDap(id, acc, revisionTimestamp, items, revisions);
                         acc.clear();
@@ -192,6 +190,7 @@ bool ConllProject::openProject()
                         id = 0;
                         filename = "";
                     }
+                    filename = captured[2].trimmed();
                 }
             }
         }
@@ -284,7 +283,7 @@ QString ConllProject::generateConll(ConllGraph *graph)
         if(features.size() == 0)
             line += "_\t";
         else
-            line += features.join("|") % "\t";               
+            line += features.join("|") % "\t";
         lines << line;
     }
 
@@ -361,7 +360,7 @@ QString ConllProject::generateConll(ConllGraph *graph)
             rels += relations[i].second;
         }
 
-        string += lines[counter++];                
+        string += lines[counter++];
         string += indexes % "\t" % rels % "\t" % "_" % "\t" % "_";
 
         if(first && !graph->nodeProperties(nb->first).comment().isEmpty())
@@ -488,7 +487,7 @@ bool ConllProject::processEdge(QString id, QString heads, QString rels, QMultiMa
     if(indexes.empty())
         return true;
 
-    for(int i = 0; i < indexes.size(); i++){        
+    for(int i = 0; i < indexes.size(); i++){
         QString index = indexes[i];
 
         /*//Root case
